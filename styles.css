@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+   }
+body {
+    background-color: #000000;
+    padding-left: 100px; 
+}
+a{
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    align-items: center;
+    margin-top: 30px;
+}
+.header_login{
+    display: flex;
+    align-items: center;
+    margin-left: 108px;
+    gap: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+.start_page {
+    display: flex;
+}
+.start_page-title{
+    width: 650px;
+    margin-top: 181px;
+}
+.start_page-title_text{
+    margin-top: -610px;
+}
+.start_page-title__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+}
+.start_page-rotate {
+    margin-top: -310px;
+    margin-left: 425px;
+}
+.start_page-title_descr{
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+
+}
+.start_page-title_descr-text {
+    width: 380px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.start_page__img{
+    margin-top: -135px;
+}
+.end_page{
+display: flex;
+justify-content: space-between;
+font-weight: 700;
+font-size: 35px;
+line-height: 70px;
+margin-top: -84px;
+}
+.end_page-social{
+    display: flex;
+    gap: 30px;
+    margin-right: 240px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 81px;
+    margin-left: -100px;
+}
+.contact_details{
+    margin-top: 150px;
+    border-radius: 21px;
+    border: 2px solid;
+    width: 500px;
+    height: 300px;
+    padding: 65px 75px 65px 55px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
