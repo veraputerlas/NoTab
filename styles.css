@@ -9,7 +9,9 @@
    }
 body {
     background-color: #000000;
-    padding-left: 100px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 a{
     color: white;
@@ -20,6 +22,7 @@ a{
     height: 100px;
     align-items: center;
     margin-top: 30px;
+    margin-left: 100px;
 }
 .header_login{
     display: flex;
@@ -32,6 +35,7 @@ a{
 }
 .start_page {
     display: flex;
+    margin-left: 100px;
 }
 .start_page-title{
     width: 650px;
@@ -72,6 +76,7 @@ font-weight: 700;
 font-size: 35px;
 line-height: 70px;
 margin-top: -84px;
+margin-left: 100px;
 }
 .end_page-social{
     display: flex;
@@ -81,11 +86,11 @@ margin-top: -84px;
 .contact{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     gap: 81px;
-    margin-left: -100px;
 }
+
 .contact_details{
-    margin-top: 150px;
     border-radius: 21px;
     border: 2px solid;
     width: 500px;
@@ -94,4 +99,243 @@ margin-top: -84px;
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contact_details-contact{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+.contact_ring-1 {
+    margin-left: -102px;
+    margin-top: -565px;
+    position: absolute;
+    z-index: -1;
+}
+.contact_ring-2 {
+    margin-left: 570px;
+    margin-top: -708px;
+    position: absolute;
+    z-index: -1;
+}
+.mission{
+    display: flex;
+    gap: 170px;
+    margin-top: 150px;
+}
+.mission_left_img{
+    display: block;
+    width: 1008px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: -227px;
+}
+.mission_descr{
+    width: 340px;    
+}
+.mission_descr_title{
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    margin-bottom: 25px;
+}
+.mission_descr_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.scanner{
+    background: url(./images/bg.png);
+    background-size: cover;
+    height: 120vh;
+    margin-top: 100px;
+    box-shadow: inset 0px 0px 50px 50px #000000;
+} 
+.scanner_img{
+    margin-left: 100PX;
+    margin-top: -400px;
+    display: flex;
+    gap: 50px;
+}
+.scanner_img_descr{
+    display: flex;
+   flex-direction: column;
+   justify-content: end;
+   padding-bottom: 100px;
+   margin-left: 90px;
+   width: 337px;
+}
+.integration{
+    display: flex;
+    margin-top: 230px;
+    margin-left: 100px;
+    gap: 25px;
+}
+.integration_descr{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+.integration_descr_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 410px;
+}
+.integration_daigr-1{
+    position: relative;
+    margin-top: -91px;
+    display: block;
+    margin-left: 94px;
+}
+.integration_daigr-2 {
+    position: relative;
+    margin-top: 95px;
+    display: block;
+    margin-left: -232px;
+}
+.integration_daigr-3 {
+    position: relative;
+    margin-top: -47px;
+    display: block;
+    margin-left: 64px;
+    z-index: 1;
+}
+ .integration_daigr-4 {
+    position: relative;
+    margin-top: -226px;
+    display: block;
+    margin-left: 239px;
+}
+.integration_daigr-5 {
+    position: relative;
+    margin-top: 15px;
+    display: block;
+    margin-left: -20px;
+} 
+.integration_round-1 {
+    position: relative;
+    margin-top: -353px;
+    display: block;
+    margin-left: -95px;
+}
+.integration_round-2 {
+    position: relative;
+    margin-top: 269px;
+    display: block;
+    margin-left: 202px;
+}
+.code{
+    margin-top: 200px;
+}
+.inscription{
+    position: relative;
+    margin-left: 1272px;
+}
+.code_bg{
+    display: grid;
+    width: 100%;
+    grid-template-columns:50% 50%;
+    /* box-shadow: inset 0px 0px 60px 100px #000000; */
+    
+}
+.code_shadow{
+    box-shadow: inset -20px 0px 69px 70px #000000;
+    width: 811px;
+    height: 606px;
+    background: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.png) 0 0 no-repeat;
+}
+.cup{
+    width: 100%;
+}
+.code_descr{
+    display: flex;
+    flex-direction: column;
+    width: 315px;    
+    margin-left: 195px;
+    margin-top: -85px;
+}
+.code_descr_title {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    margin-bottom: 23px;
+}
+.code_descr_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.code_page-social{
+    display: flex;
+    margin-top: 58px;
+    gap: 28px;
+}
+.code_image-1{
+    position: absolute;
+    margin-left: 641px;
+    margin-top: -645px;
+}
+.code_image-2 {
+    position: absolute;
+    margin-left: 1037px;
+    margin-top: -278px;
+}
+.code_QR{
+    background: url(./images/notab.png);
+    background-size: cover;
+    height: 73vh;
+    margin-top: 540px;
+    /* box-shadow: inset 0px 0px 50px 50px #000000; */
+}
+/* .code_QR_shadow{
+background: url(images/shadow.png) no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -190px;
+    position: absolute; */
+    /* z-index: 1; */
+
+.code_QR_img {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -294px;
+}
+.code_QR_text{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 300px;
+    padding-top: 190px;
+    font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+}
+.code_QR_arrow{
+    position: absolute;
+    margin-left: 987px;
+    margin-top: 108px;
+}
+.code_title {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+    gap: 567px;
+    align-items: center;
+}
+.code_title_title {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    width: 380px;
+}
+.code_title_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 298px;
 }
